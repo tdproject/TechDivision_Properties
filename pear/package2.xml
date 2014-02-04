@@ -23,7 +23,7 @@
         <api>${api.stability}</api>
     </stability>
 	<license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
-	<notes>- Switch to new build- and deployment process</notes>
+	<notes>Switching to pear.appserver.io/library PEAR channel</notes>
     <contents>
         <dir name="/"/>
     </contents>
@@ -51,6 +51,21 @@
 	<phprelease/>
 	<changelog>
 		<release xmlns="">
+                    <version>
+                        <release>0.1.4</release>
+                        <api>0.1.0</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2014-02-04</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        Switching to pear.appserver.io/library PEAR channel
+                    </notes>
+                </release>
+<release xmlns="">
 	        <version>
 	            <release>0.1.2</release>
 	            <api>0.1.0</api>
